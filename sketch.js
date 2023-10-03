@@ -1,8 +1,7 @@
 let capture;
 let posenet;
 let noseX,noseY;
-let reyeX,reyeY;
-let leyeX,leyeY;
+let reyeX,reyeY;let leyeX,leyeY;
 let singlePose,skeleton;
 let actor_img;
 let specs,smoke;
