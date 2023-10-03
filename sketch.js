@@ -15,8 +15,8 @@ function setup() {
     posenet = ml5.poseNet(capture, modelLoaded);
     posenet.on('pose',receivedPoses);
 
-    specs = loadImage('spects.png');
-    smoke = loadImage('cigar.png');
+    specs = loadImage('images/spects.png');
+    smoke = loadImage('images/cigar.png');
 
 }
 
@@ -57,4 +57,8 @@ function draw() {
 
     
 
+}
+
+function take_snapshot(){
+    save("frame.png");
 }
